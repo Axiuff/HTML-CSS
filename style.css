@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.banniere_text{
+    text-align: center;
+    color: #fff;
+    padding-top: 300px;
+}
+
+.banniere{
+    background: url(./image/background.jpg) center/cover no-repeat;
+    height: 100vh;
+}
+
+.banniere_text h1{
+    font-size: 130px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banniere_btn{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.banniere_btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: #fff;
+    border: 1px solid #fff;
+    position: relative;
+    z-index: 1;
+    transition: color 0.6s ease-in;
+}
+
+.banniere_btn a span{
+    width: 0%;
+    height: 100%;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.6s ease-in;
+}
+
+.banniere_btn a:hover span{
+    width: 100%;
+}
+
+.banniere_btn a:hover{
+    color: black;
+}
